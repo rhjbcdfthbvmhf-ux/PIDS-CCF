@@ -1,0 +1,731 @@
+{
+  "status": "PASS",
+  "family": "core",
+  "audited_runs": 45,
+  "expected_runs": 45,
+  "audited_prediction_files": 2295,
+  "scope": "all NPZ arrays; split and checkpoint hashes; exact ground-truth/center mapping; independent OA/AA/kappa/F1/ECE/NLL recomputation",
+  "exclusions": "does not certify novelty, sensor realism, independent scenes, or absence of contextual overlap in random-pixel splits",
+  "records": [
+    {
+      "dataset": "IndianPines",
+      "seed": 101,
+      "run": "runs_final_core_clean/IndianPines/clean/seed_101",
+      "prediction_files": 51,
+      "test_centers": 8712,
+      "max_absolute_metric_error": 2.220446049250313e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [
+          7,
+          9
+        ],
+        "test": []
+      },
+      "checkpoint_sha256": "02f4508e00e5a596ef595e642e9dec892bf101d8daac1491630b69dea3f386a4",
+      "split_sha256": "b36f23e44ee4b041c31770fcb8dc9d50f49040eb9f539e707098dd2b51840013"
+    },
+    {
+      "dataset": "IndianPines",
+      "seed": 23,
+      "run": "runs_final_core_clean/IndianPines/clean/seed_23",
+      "prediction_files": 51,
+      "test_centers": 8712,
+      "max_absolute_metric_error": 1.1102230246251565e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [
+          7,
+          9
+        ],
+        "test": []
+      },
+      "checkpoint_sha256": "4ec0810991fdd83529598ae02954f3c96bb9a197d1a5534174180167cb1f3332",
+      "split_sha256": "e84b52ad5d0e39f1079f8009258c338992e9d97016cb551edcfdc172dbe19423"
+    },
+    {
+      "dataset": "IndianPines",
+      "seed": 37,
+      "run": "runs_final_core_clean/IndianPines/clean/seed_37",
+      "prediction_files": 51,
+      "test_centers": 8712,
+      "max_absolute_metric_error": 1.1102230246251565e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [
+          7,
+          9
+        ],
+        "test": []
+      },
+      "checkpoint_sha256": "a87431fb921c7eb37822c3317c06b521544371368c9a6ca134ed9d61a8d55331",
+      "split_sha256": "6eebe9d40ed8170eefd872b366da3286267326a2b0a7de55e69d32854c39e047"
+    },
+    {
+      "dataset": "IndianPines",
+      "seed": 51,
+      "run": "runs_final_core_clean/IndianPines/clean/seed_51",
+      "prediction_files": 51,
+      "test_centers": 8712,
+      "max_absolute_metric_error": 2.220446049250313e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [
+          7,
+          9
+        ],
+        "test": []
+      },
+      "checkpoint_sha256": "c2f39b1f7833c9e7a872e4868e42e7880550eac2486260e4a000f65a51444603",
+      "split_sha256": "074a6428c0dc3d8ede392c3ccd51f99f9c54d6831bdaed7ffec415311c6bf7a0"
+    },
+    {
+      "dataset": "IndianPines",
+      "seed": 71,
+      "run": "runs_final_core_clean/IndianPines/clean/seed_71",
+      "prediction_files": 51,
+      "test_centers": 8712,
+      "max_absolute_metric_error": 1.1102230246251565e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [
+          7,
+          9
+        ],
+        "test": []
+      },
+      "checkpoint_sha256": "d2ea314962f9371121d019a79f076e8ad23776c3bcd820d8b87d7695a8b5c940",
+      "split_sha256": "9499237162faf2ddf0cc67eb7a2211fd5310acd97efd09b76b6f9e99a96572a4"
+    },
+    {
+      "dataset": "PaviaU",
+      "seed": 101,
+      "run": "runs_final_core_clean/PaviaU/clean/seed_101",
+      "prediction_files": 51,
+      "test_centers": 36360,
+      "max_absolute_metric_error": 2.220446049250313e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "checkpoint_sha256": "cc795748363c9bc563dd87734ecdd11cf64f3e778ecb214e72d0ecb71746eb81",
+      "split_sha256": "26a01ca15e214788f1c5c90eac2b391a6e6b1c6fbcf18f3201eede04e795d122"
+    },
+    {
+      "dataset": "PaviaU",
+      "seed": 23,
+      "run": "runs_final_core_clean/PaviaU/clean/seed_23",
+      "prediction_files": 51,
+      "test_centers": 36360,
+      "max_absolute_metric_error": 2.220446049250313e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "checkpoint_sha256": "043ab47c7e9888260ae4cbc0c84b0823047b60474854f4f32f0db124f5b79459",
+      "split_sha256": "b6a80f75b10d182588f5d3586e423e83b579c983d40573f8e8b4ea667e51efdb"
+    },
+    {
+      "dataset": "PaviaU",
+      "seed": 37,
+      "run": "runs_final_core_clean/PaviaU/clean/seed_37",
+      "prediction_files": 51,
+      "test_centers": 36360,
+      "max_absolute_metric_error": 2.7755575615628914e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "checkpoint_sha256": "ae146661afa3ff851d36af335bd930e556265443ebfaec55e4a2601926612228",
+      "split_sha256": "fde19c7265dccc9427f30945acb88e9453b5bbba1ba0ebb6d8f039deb1bc2c94"
+    },
+    {
+      "dataset": "PaviaU",
+      "seed": 51,
+      "run": "runs_final_core_clean/PaviaU/clean/seed_51",
+      "prediction_files": 51,
+      "test_centers": 36360,
+      "max_absolute_metric_error": 2.220446049250313e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "checkpoint_sha256": "97190b772eb6817fe1bc1034730a6a9039ed9f97b76bccd8a919317a095697ad",
+      "split_sha256": "a828b07ae5b7e8e796f7b9bb5bd7427ac8653a24ea0ce6029eb6637280e5f02a"
+    },
+    {
+      "dataset": "PaviaU",
+      "seed": 71,
+      "run": "runs_final_core_clean/PaviaU/clean/seed_71",
+      "prediction_files": 51,
+      "test_centers": 36360,
+      "max_absolute_metric_error": 2.220446049250313e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "checkpoint_sha256": "692e83e5645dfe916a56727643ea02d07adc55d781fa7c6ffe8b1ab99f43db01",
+      "split_sha256": "cb3d60bda82f5526f56722e30eb69b740abb1fdfdb9dc1295d16e0bcfa879c8b"
+    },
+    {
+      "dataset": "Salinas",
+      "seed": 101,
+      "run": "runs_final_core_clean/Salinas/clean/seed_101",
+      "prediction_files": 51,
+      "test_centers": 46010,
+      "max_absolute_metric_error": 1.1102230246251565e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "checkpoint_sha256": "25e6ddddb7eb9a31054b310352ef2b2f86e1b3a333015be306adf1b1bd10aa77",
+      "split_sha256": "bd72f7722d56453de5b237cd6af9dbd3c1af28c8b28a3e63220234930b15a0e7"
+    },
+    {
+      "dataset": "Salinas",
+      "seed": 23,
+      "run": "runs_final_core_clean/Salinas/clean/seed_23",
+      "prediction_files": 51,
+      "test_centers": 46010,
+      "max_absolute_metric_error": 2.220446049250313e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "checkpoint_sha256": "88ce17fc0e57f5b66e95845b20181a97cb983dda0de6f80a69444dd2430c7877",
+      "split_sha256": "00003dcda1dc7c742306e18da84471fe6ea9c9c7114d3ac81272dd825f021224"
+    },
+    {
+      "dataset": "Salinas",
+      "seed": 37,
+      "run": "runs_final_core_clean/Salinas/clean/seed_37",
+      "prediction_files": 51,
+      "test_centers": 46010,
+      "max_absolute_metric_error": 1.1102230246251565e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "checkpoint_sha256": "4e65be2fb477e0e553173dbfeeeb7d105d4f7203f38520500aa38f09985e4b27",
+      "split_sha256": "4da49f56865941f4238229de235630d5486721d3f667c4bb3e99e4df7df92185"
+    },
+    {
+      "dataset": "Salinas",
+      "seed": 51,
+      "run": "runs_final_core_clean/Salinas/clean/seed_51",
+      "prediction_files": 51,
+      "test_centers": 46010,
+      "max_absolute_metric_error": 2.220446049250313e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "checkpoint_sha256": "a89d3c3c5f21583eb8b172142c37ff64a5047edfcb8ecb229babdd0457e0a4ca",
+      "split_sha256": "eb692e705532b54890f80711f085db7ab773dc747bc1e2a98ecdbae9181ba005"
+    },
+    {
+      "dataset": "Salinas",
+      "seed": 71,
+      "run": "runs_final_core_clean/Salinas/clean/seed_71",
+      "prediction_files": 51,
+      "test_centers": 46010,
+      "max_absolute_metric_error": 2.220446049250313e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "checkpoint_sha256": "2965ee9059f45342600872352d5d8f8d2a087d2a91f1998a8f5b9f5efda6e399",
+      "split_sha256": "5750d88a8b1510e1e84a5bd9ed80cd1b7d41b84dcab27dd8c97503da89e9f4bf"
+    },
+    {
+      "dataset": "IndianPines",
+      "seed": 101,
+      "run": "runs_final_core_stage1/IndianPines/pids/seed_101",
+      "prediction_files": 51,
+      "test_centers": 8712,
+      "max_absolute_metric_error": 2.220446049250313e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [
+          7,
+          9
+        ],
+        "test": []
+      },
+      "checkpoint_sha256": "96b76a5149663eb0bf6364ddee043f9c8af5102d53de6602ee796fd9f01b3e87",
+      "split_sha256": "b36f23e44ee4b041c31770fcb8dc9d50f49040eb9f539e707098dd2b51840013"
+    },
+    {
+      "dataset": "IndianPines",
+      "seed": 23,
+      "run": "runs_final_core_stage1/IndianPines/pids/seed_23",
+      "prediction_files": 51,
+      "test_centers": 8712,
+      "max_absolute_metric_error": 1.1102230246251565e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [
+          7,
+          9
+        ],
+        "test": []
+      },
+      "checkpoint_sha256": "41a37304cad9386d0ec53692c89d07628a371b505f46fd008f2283131efdb80c",
+      "split_sha256": "e84b52ad5d0e39f1079f8009258c338992e9d97016cb551edcfdc172dbe19423"
+    },
+    {
+      "dataset": "IndianPines",
+      "seed": 37,
+      "run": "runs_final_core_stage1/IndianPines/pids/seed_37",
+      "prediction_files": 51,
+      "test_centers": 8712,
+      "max_absolute_metric_error": 2.220446049250313e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [
+          7,
+          9
+        ],
+        "test": []
+      },
+      "checkpoint_sha256": "56f15efa185a359cdf74e46571aa84f6a4bf0872f2846acfa6829a9113811626",
+      "split_sha256": "6eebe9d40ed8170eefd872b366da3286267326a2b0a7de55e69d32854c39e047"
+    },
+    {
+      "dataset": "IndianPines",
+      "seed": 51,
+      "run": "runs_final_core_stage1/IndianPines/pids/seed_51",
+      "prediction_files": 51,
+      "test_centers": 8712,
+      "max_absolute_metric_error": 2.220446049250313e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [
+          7,
+          9
+        ],
+        "test": []
+      },
+      "checkpoint_sha256": "d9787a22b9011ddb3ca99f9ae9617876d9c8174b7ae91dc3e7d2db1e7de992ad",
+      "split_sha256": "074a6428c0dc3d8ede392c3ccd51f99f9c54d6831bdaed7ffec415311c6bf7a0"
+    },
+    {
+      "dataset": "IndianPines",
+      "seed": 71,
+      "run": "runs_final_core_stage1/IndianPines/pids/seed_71",
+      "prediction_files": 51,
+      "test_centers": 8712,
+      "max_absolute_metric_error": 2.220446049250313e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [
+          7,
+          9
+        ],
+        "test": []
+      },
+      "checkpoint_sha256": "e7a9d47e53063cc5146b646d9c7fb91d96c589cc04289cdf550b4e68c5b747c2",
+      "split_sha256": "9499237162faf2ddf0cc67eb7a2211fd5310acd97efd09b76b6f9e99a96572a4"
+    },
+    {
+      "dataset": "PaviaU",
+      "seed": 101,
+      "run": "runs_final_core_stage1/PaviaU/pids/seed_101",
+      "prediction_files": 51,
+      "test_centers": 36360,
+      "max_absolute_metric_error": 2.220446049250313e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "checkpoint_sha256": "4cd4ca9585c9c2a38b7c21dbe2b3dd9227930a36e616eaaa153abb3bacf3fdbd",
+      "split_sha256": "26a01ca15e214788f1c5c90eac2b391a6e6b1c6fbcf18f3201eede04e795d122"
+    },
+    {
+      "dataset": "PaviaU",
+      "seed": 23,
+      "run": "runs_final_core_stage1/PaviaU/pids/seed_23",
+      "prediction_files": 51,
+      "test_centers": 36360,
+      "max_absolute_metric_error": 2.220446049250313e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "checkpoint_sha256": "7e882cbdd89aa60aa58498727bd4040fbd70b93800d2afba6758271c682e9902",
+      "split_sha256": "b6a80f75b10d182588f5d3586e423e83b579c983d40573f8e8b4ea667e51efdb"
+    },
+    {
+      "dataset": "PaviaU",
+      "seed": 37,
+      "run": "runs_final_core_stage1/PaviaU/pids/seed_37",
+      "prediction_files": 51,
+      "test_centers": 36360,
+      "max_absolute_metric_error": 2.220446049250313e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "checkpoint_sha256": "46641930d2cb655cd2015a93cdda625390a3e310c4133de1b7e28ebe6cdbcec2",
+      "split_sha256": "fde19c7265dccc9427f30945acb88e9453b5bbba1ba0ebb6d8f039deb1bc2c94"
+    },
+    {
+      "dataset": "PaviaU",
+      "seed": 51,
+      "run": "runs_final_core_stage1/PaviaU/pids/seed_51",
+      "prediction_files": 51,
+      "test_centers": 36360,
+      "max_absolute_metric_error": 2.220446049250313e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "checkpoint_sha256": "69b1716b73b8c9dbdb2f8aeeaa6a1d2f5dc942cd1cc3e2dafd072831cb009329",
+      "split_sha256": "a828b07ae5b7e8e796f7b9bb5bd7427ac8653a24ea0ce6029eb6637280e5f02a"
+    },
+    {
+      "dataset": "PaviaU",
+      "seed": 71,
+      "run": "runs_final_core_stage1/PaviaU/pids/seed_71",
+      "prediction_files": 51,
+      "test_centers": 36360,
+      "max_absolute_metric_error": 2.220446049250313e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "checkpoint_sha256": "721ec6af152714255295500b9a734a9e675790f312d293dd50417a38dbc06f4c",
+      "split_sha256": "cb3d60bda82f5526f56722e30eb69b740abb1fdfdb9dc1295d16e0bcfa879c8b"
+    },
+    {
+      "dataset": "Salinas",
+      "seed": 101,
+      "run": "runs_final_core_stage1/Salinas/pids/seed_101",
+      "prediction_files": 51,
+      "test_centers": 46010,
+      "max_absolute_metric_error": 1.1102230246251565e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "checkpoint_sha256": "7eb89c0cfa5adf4bedf661926a9f2af8553c7571e16de894e057c5e69f24f146",
+      "split_sha256": "bd72f7722d56453de5b237cd6af9dbd3c1af28c8b28a3e63220234930b15a0e7"
+    },
+    {
+      "dataset": "Salinas",
+      "seed": 23,
+      "run": "runs_final_core_stage1/Salinas/pids/seed_23",
+      "prediction_files": 51,
+      "test_centers": 46010,
+      "max_absolute_metric_error": 2.220446049250313e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "checkpoint_sha256": "f127339e66c015a7e23f3b7116abaec844819fdd7325c4bb03a7688d2df40275",
+      "split_sha256": "00003dcda1dc7c742306e18da84471fe6ea9c9c7114d3ac81272dd825f021224"
+    },
+    {
+      "dataset": "Salinas",
+      "seed": 37,
+      "run": "runs_final_core_stage1/Salinas/pids/seed_37",
+      "prediction_files": 51,
+      "test_centers": 46010,
+      "max_absolute_metric_error": 2.220446049250313e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "checkpoint_sha256": "d66346866149e3f982628990df2ec69e59327d7c314c86af6bcc3130ce72b109",
+      "split_sha256": "4da49f56865941f4238229de235630d5486721d3f667c4bb3e99e4df7df92185"
+    },
+    {
+      "dataset": "Salinas",
+      "seed": 51,
+      "run": "runs_final_core_stage1/Salinas/pids/seed_51",
+      "prediction_files": 51,
+      "test_centers": 46010,
+      "max_absolute_metric_error": 2.220446049250313e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "checkpoint_sha256": "5e4a4bbac2db120ba34b2681eeee775a7eb490bc33120e3598f531f1e00840bb",
+      "split_sha256": "eb692e705532b54890f80711f085db7ab773dc747bc1e2a98ecdbae9181ba005"
+    },
+    {
+      "dataset": "Salinas",
+      "seed": 71,
+      "run": "runs_final_core_stage1/Salinas/pids/seed_71",
+      "prediction_files": 51,
+      "test_centers": 46010,
+      "max_absolute_metric_error": 1.1102230246251565e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "checkpoint_sha256": "8645649fe2b6ca82dfbb03498bf14a73ec64f92ab809a4af17f5260a5ba0ef79",
+      "split_sha256": "5750d88a8b1510e1e84a5bd9ed80cd1b7d41b84dcab27dd8c97503da89e9f4bf"
+    },
+    {
+      "dataset": "IndianPines",
+      "seed": 101,
+      "run": "runs_final_core_stage2/IndianPines/pids/seed_101",
+      "prediction_files": 51,
+      "test_centers": 8712,
+      "max_absolute_metric_error": 1.1102230246251565e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [
+          7,
+          9
+        ],
+        "test": []
+      },
+      "checkpoint_sha256": "62a779ed5c1d7eaa485537c7d2f9b680c5f24ac8f45d410dca5d59eebe212693",
+      "split_sha256": "b36f23e44ee4b041c31770fcb8dc9d50f49040eb9f539e707098dd2b51840013"
+    },
+    {
+      "dataset": "IndianPines",
+      "seed": 23,
+      "run": "runs_final_core_stage2/IndianPines/pids/seed_23",
+      "prediction_files": 51,
+      "test_centers": 8712,
+      "max_absolute_metric_error": 2.220446049250313e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [
+          7,
+          9
+        ],
+        "test": []
+      },
+      "checkpoint_sha256": "0573fcb45c86ffa6504ba05990484861c90dba2dc1bb6928d28da2e2f18ced3b",
+      "split_sha256": "e84b52ad5d0e39f1079f8009258c338992e9d97016cb551edcfdc172dbe19423"
+    },
+    {
+      "dataset": "IndianPines",
+      "seed": 37,
+      "run": "runs_final_core_stage2/IndianPines/pids/seed_37",
+      "prediction_files": 51,
+      "test_centers": 8712,
+      "max_absolute_metric_error": 2.220446049250313e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [
+          7,
+          9
+        ],
+        "test": []
+      },
+      "checkpoint_sha256": "9c1d43d6d43b9749d71b10dd0b9d5caaefb2c03c3990e8b492da77a23271806a",
+      "split_sha256": "6eebe9d40ed8170eefd872b366da3286267326a2b0a7de55e69d32854c39e047"
+    },
+    {
+      "dataset": "IndianPines",
+      "seed": 51,
+      "run": "runs_final_core_stage2/IndianPines/pids/seed_51",
+      "prediction_files": 51,
+      "test_centers": 8712,
+      "max_absolute_metric_error": 2.220446049250313e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [
+          7,
+          9
+        ],
+        "test": []
+      },
+      "checkpoint_sha256": "38c8934a6c7b335d1ca310dcc2121665a59b8438eed9ebc10bfbf24789d3cd06",
+      "split_sha256": "074a6428c0dc3d8ede392c3ccd51f99f9c54d6831bdaed7ffec415311c6bf7a0"
+    },
+    {
+      "dataset": "IndianPines",
+      "seed": 71,
+      "run": "runs_final_core_stage2/IndianPines/pids/seed_71",
+      "prediction_files": 51,
+      "test_centers": 8712,
+      "max_absolute_metric_error": 2.220446049250313e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [
+          7,
+          9
+        ],
+        "test": []
+      },
+      "checkpoint_sha256": "2158aecb8b0a09a1a3f359c9a0e417feb9260bbab9e754823074bfedb56ceb41",
+      "split_sha256": "9499237162faf2ddf0cc67eb7a2211fd5310acd97efd09b76b6f9e99a96572a4"
+    },
+    {
+      "dataset": "PaviaU",
+      "seed": 101,
+      "run": "runs_final_core_stage2/PaviaU/pids/seed_101",
+      "prediction_files": 51,
+      "test_centers": 36360,
+      "max_absolute_metric_error": 2.220446049250313e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "checkpoint_sha256": "bc7f7d3544ab0c54d1fdf58a8f61657384c7da877cd92e8b0a188e653d043eb0",
+      "split_sha256": "26a01ca15e214788f1c5c90eac2b391a6e6b1c6fbcf18f3201eede04e795d122"
+    },
+    {
+      "dataset": "PaviaU",
+      "seed": 23,
+      "run": "runs_final_core_stage2/PaviaU/pids/seed_23",
+      "prediction_files": 51,
+      "test_centers": 36360,
+      "max_absolute_metric_error": 2.220446049250313e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "checkpoint_sha256": "36cf7988daa3da39da985d34b3298fd28f7f3178bbfc6915dd0b357433c3b1ed",
+      "split_sha256": "b6a80f75b10d182588f5d3586e423e83b579c983d40573f8e8b4ea667e51efdb"
+    },
+    {
+      "dataset": "PaviaU",
+      "seed": 37,
+      "run": "runs_final_core_stage2/PaviaU/pids/seed_37",
+      "prediction_files": 51,
+      "test_centers": 36360,
+      "max_absolute_metric_error": 2.220446049250313e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "checkpoint_sha256": "304b85ef09b6af50b4d645c78867a955b875260bdfd8c3507883e59d0bd57c56",
+      "split_sha256": "fde19c7265dccc9427f30945acb88e9453b5bbba1ba0ebb6d8f039deb1bc2c94"
+    },
+    {
+      "dataset": "PaviaU",
+      "seed": 51,
+      "run": "runs_final_core_stage2/PaviaU/pids/seed_51",
+      "prediction_files": 51,
+      "test_centers": 36360,
+      "max_absolute_metric_error": 2.220446049250313e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "checkpoint_sha256": "ce2831cc6f78a0a154536adf9396c16ce43fc1547cb93e41fa2ddbe5b84c2674",
+      "split_sha256": "a828b07ae5b7e8e796f7b9bb5bd7427ac8653a24ea0ce6029eb6637280e5f02a"
+    },
+    {
+      "dataset": "PaviaU",
+      "seed": 71,
+      "run": "runs_final_core_stage2/PaviaU/pids/seed_71",
+      "prediction_files": 51,
+      "test_centers": 36360,
+      "max_absolute_metric_error": 2.220446049250313e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "checkpoint_sha256": "156ecfeb790be6860658a696b007cb87f9af4940d4ae9e410b102efa58922503",
+      "split_sha256": "cb3d60bda82f5526f56722e30eb69b740abb1fdfdb9dc1295d16e0bcfa879c8b"
+    },
+    {
+      "dataset": "Salinas",
+      "seed": 101,
+      "run": "runs_final_core_stage2/Salinas/pids/seed_101",
+      "prediction_files": 51,
+      "test_centers": 46010,
+      "max_absolute_metric_error": 2.220446049250313e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "checkpoint_sha256": "63a5cb440fde5a07a2fde3f077c7089e38cb31b4bb3e56bada590adb666d227f",
+      "split_sha256": "bd72f7722d56453de5b237cd6af9dbd3c1af28c8b28a3e63220234930b15a0e7"
+    },
+    {
+      "dataset": "Salinas",
+      "seed": 23,
+      "run": "runs_final_core_stage2/Salinas/pids/seed_23",
+      "prediction_files": 51,
+      "test_centers": 46010,
+      "max_absolute_metric_error": 2.220446049250313e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "checkpoint_sha256": "e35221ae4d277eef4c6d7d603d3fec167288eded7bf86ed59d16af8d33e64ef5",
+      "split_sha256": "00003dcda1dc7c742306e18da84471fe6ea9c9c7114d3ac81272dd825f021224"
+    },
+    {
+      "dataset": "Salinas",
+      "seed": 37,
+      "run": "runs_final_core_stage2/Salinas/pids/seed_37",
+      "prediction_files": 51,
+      "test_centers": 46010,
+      "max_absolute_metric_error": 2.220446049250313e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "checkpoint_sha256": "bfc67bac90397b0604ffb9fd2988f2aa66e2473363f9ae20f7b0984f6e9e381f",
+      "split_sha256": "4da49f56865941f4238229de235630d5486721d3f667c4bb3e99e4df7df92185"
+    },
+    {
+      "dataset": "Salinas",
+      "seed": 51,
+      "run": "runs_final_core_stage2/Salinas/pids/seed_51",
+      "prediction_files": 51,
+      "test_centers": 46010,
+      "max_absolute_metric_error": 2.220446049250313e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "checkpoint_sha256": "5adf96209493c387d5916e1e7ecd90ea388cce3335a5269031bea23abb202754",
+      "split_sha256": "eb692e705532b54890f80711f085db7ab773dc747bc1e2a98ecdbae9181ba005"
+    },
+    {
+      "dataset": "Salinas",
+      "seed": 71,
+      "run": "runs_final_core_stage2/Salinas/pids/seed_71",
+      "prediction_files": 51,
+      "test_centers": 46010,
+      "max_absolute_metric_error": 1.1102230246251565e-16,
+      "missing_class_ids": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "checkpoint_sha256": "99238597a7d08a379838f10766dc84e694e88e7c408d98be13308521f5b16481",
+      "split_sha256": "5750d88a8b1510e1e84a5bd9ed80cd1b7d41b84dcab27dd8c97503da89e9f4bf"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "archive_sha256": "5a5bb7893ea555bb21534ed172eab2f193f9b868e55ebf5c5104c8f751e193ba",
+  "input_patch": 7,
+  "training_started": false,
+  "folds": [
+    {
+      "dataset": "IndianPines",
+      "fold": 0,
+      "file": "IndianPines_fold_0.json",
+      "sha256": "9c8adc89349a2113a8363bee978a80785cf1a10870eb011c4849769bcc3de1c7",
+      "counts": [
+        2272,
+        254,
+        7723
+      ]
+    },
+    {
+      "dataset": "IndianPines",
+      "fold": 1,
+      "file": "IndianPines_fold_1.json",
+      "sha256": "b44fd3cf151de16675151b18cadae0cf425c8436b7cc9dbcfe5688bc80e7e5ba",
+      "counts": [
+        2271,
+        252,
+        7726
+      ]
+    },
+    {
+      "dataset": "IndianPines",
+      "fold": 2,
+      "file": "IndianPines_fold_2.json",
+      "sha256": "fa8b613bc76b455db76b8747e95e9da936f058586400900bb9f3f4bdc83a6ace",
+      "counts": [
+        2249,
+        253,
+        7747
+      ]
+    },
+    {
+      "dataset": "IndianPines",
+      "fold": 3,
+      "file": "IndianPines_fold_3.json",
+      "sha256": "2dd31ab2f7ee045a2dac5be8536db21c929bc29f412a69cd0a55114336f093df",
+      "counts": [
+        2249,
+        251,
+        7749
+      ]
+    },
+    {
+      "dataset": "PaviaU",
+      "fold": 0,
+      "file": "PaviaU_fold_0.json",
+      "sha256": "f0bda5557c9135426c481f5b75cb11f741b5028e28d8f4673502ec098a2fa8bc",
+      "counts": [
+        2470,
+        275,
+        40031
+      ]
+    },
+    {
+      "dataset": "PaviaU",
+      "fold": 1,
+      "file": "PaviaU_fold_1.json",
+      "sha256": "3370e2399281d820a2c10d3e375353be5a9f6d99fb555972fe31b2adb9fcc2c2",
+      "counts": [
+        2331,
+        260,
+        40185
+      ]
+    },
+    {
+      "dataset": "PaviaU",
+      "fold": 2,
+      "file": "PaviaU_fold_2.json",
+      "sha256": "292ee334120133efd963a53db8ecf03cad76e92a6a8ab3d93aa9a72c28b1a29f",
+      "counts": [
+        2462,
+        273,
+        40041
+      ]
+    },
+    {
+      "dataset": "PaviaU",
+      "fold": 3,
+      "file": "PaviaU_fold_3.json",
+      "sha256": "bd8e57c4703df91239d18991f07453144cbcbc3cab83a0f1326a41bcac38b0f5",
+      "counts": [
+        2358,
+        262,
+        40156
+      ]
+    },
+    {
+      "dataset": "PaviaU",
+      "fold": 4,
+      "file": "PaviaU_fold_4.json",
+      "sha256": "9d9dd1e57f8687edd3ca6a2f30afb9c91fed3b614e3a24bf0271750f291192a8",
+      "counts": [
+        2532,
+        282,
+        39962
+      ]
+    },
+    {
+      "dataset": "Salinas",
+      "fold": 0,
+      "file": "Salinas_fold_0.json",
+      "sha256": "39ffd56584221391ded3c185deedfffd5a091e275cd706e3a69b578d849adfc7",
+      "counts": [
+        4412,
+        490,
+        49227
+      ]
+    },
+    {
+      "dataset": "Salinas",
+      "fold": 1,
+      "file": "Salinas_fold_1.json",
+      "sha256": "55fd07f59b10e4eec971d4076d28b617cd10970e5a72c7b54b8f3e4bf9686bb8",
+      "counts": [
+        4248,
+        474,
+        49407
+      ]
+    },
+    {
+      "dataset": "Salinas",
+      "fold": 2,
+      "file": "Salinas_fold_2.json",
+      "sha256": "d1cb99f9d45b3e60a09ea18262c0c955f610721e05a0e54dae649675f74997af",
+      "counts": [
+        4257,
+        476,
+        49396
+      ]
+    },
+    {
+      "dataset": "Salinas",
+      "fold": 3,
+      "file": "Salinas_fold_3.json",
+      "sha256": "268d3379edda54c3e29c4528f010dcbab65fb566f96cbf669e06e97809caff2a",
+      "counts": [
+        4309,
+        477,
+        49343
+      ]
+    },
+    {
+      "dataset": "Salinas",
+      "fold": 4,
+      "file": "Salinas_fold_4.json",
+      "sha256": "d8893ff901b3fcdcb195c9244cc20ecff9bbdb12dde66091b697b9ab27bd81cb",
+      "counts": [
+        4365,
+        485,
+        49279
+      ]
+    }
+  ]
+}

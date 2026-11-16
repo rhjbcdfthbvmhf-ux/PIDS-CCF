@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+data/
+*.pt
+*.pth
+*.npz
+*.log
+runs_*/
+final_aggregates/
+revision/third_party/
+revision/*_runs/
+revision/result_objects/
+.DS_Store
+Thumbs.db

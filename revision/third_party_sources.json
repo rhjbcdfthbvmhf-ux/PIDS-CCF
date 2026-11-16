@@ -1,0 +1,58 @@
+[
+  {
+    "repository": "zgr6010/HSI_SSFTT",
+    "ref": "994f5d72e4cf22e92d9b5ab9743e33dfdf642e1d",
+    "source": "cls_SSFTT_IP/SSFTTnet.py",
+    "destination": "ssftt/cls_SSFTT_IP/SSFTTnet.py",
+    "sha256": "c5009fae4d8ecaaadb4b1658331cedcaad8072201def0e437f046857fb29971f"
+  },
+  {
+    "repository": "lironui/Double-Branch-Dual-Attention-Mechanism-Network",
+    "ref": "b499b2219a8b26922bc71a48cd9403950e197c88",
+    "source": "DBDA/attontion.py",
+    "destination": "dbda/DBDA/attontion.py",
+    "sha256": "aa2a2810e70ce37aa85e4cafb03723a7eb55b203e08bfa86b7acb82b34183ac1"
+  },
+  {
+    "repository": "lironui/Double-Branch-Dual-Attention-Mechanism-Network",
+    "ref": "b499b2219a8b26922bc71a48cd9403950e197c88",
+    "source": "global_module/network.py",
+    "destination": "dbda/global_module/network.py",
+    "sha256": "78446f98b77891541984e2f3bd5841d7ef3790786173395661964d08493fdb69"
+  },
+  {
+    "repository": "lironui/Double-Branch-Dual-Attention-Mechanism-Network",
+    "ref": "b499b2219a8b26922bc71a48cd9403950e197c88",
+    "source": "global_module/activation.py",
+    "destination": "dbda/global_module/activation.py",
+    "sha256": "b153dc794aa8bfd40ee833aeda3979a07c5b733118955c9ac8d6e179aef2204a"
+  },
+  {
+    "repository": "lironui/Double-Branch-Dual-Attention-Mechanism-Network",
+    "ref": "b499b2219a8b26922bc71a48cd9403950e197c88",
+    "source": "LICENSE",
+    "destination": "dbda/LICENSE",
+    "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+  },
+  {
+    "repository": "PURE-melo/S2Mamba",
+    "ref": "26178425e4aaa47ed6cb04e76120088083808afd",
+    "source": "s2mamba.py",
+    "destination": "s2mamba/s2mamba.py",
+    "sha256": "c81baf54cd4323cfc83bc3aa255cc15fd88d307d09397d08a2705b26e55e0f15"
+  },
+  {
+    "repository": "state-spaces/mamba",
+    "ref": "v1.2.0",
+    "source": "mamba_ssm/ops/selective_scan_interface.py",
+    "destination": "s2mamba/selective_scan_reference_source.py",
+    "sha256": "fe606b4c7e81b47bb091cf59dc474aece1112a6ca01eb6f22309090e56030bc4"
+  },
+  {
+    "repository": "huggingface/pytorch-image-models",
+    "ref": "v0.9.16",
+    "source": "timm/layers/drop.py",
+    "destination": "s2mamba/timm_drop_source.py",
+    "sha256": "1e8714902348371bd244757475047bce9791889406fca924f3fc30d801cad998"
+  }
+]

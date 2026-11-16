@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this implementation, please cite this software and the associated manuscript."
+title: "PIDS-CCF: compound sensor-inspired augmentation with center-context fusion"
+type: software
+authors:
+  - family-names: Liu
+    given-names: Yuhan
+  - family-names: Li
+    given-names: Guoxing
+  - family-names: Zhao
+    given-names: Qianru
+version: 1.0.0
+date-released: 2026-11-17
+license: MIT
+repository-code: "https://github.com/rhjbcdfthbvmhf-ux/PIDS-CCF"
+keywords:
+  - hyperspectral image classification
+  - sensor-inspired augmentation
+  - robustness
+  - reproducibility
