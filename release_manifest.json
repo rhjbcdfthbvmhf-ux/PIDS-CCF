@@ -4,7 +4,7 @@
     ".gitignore": "c2ed71f72256c5df371a1a39ab1b3f200285407f87ddef34c1a7a317d7180cd6",
     "CITATION.cff": "c32c977160fcaf0eb1cbc56ab04618527bc5498fb781e32ae30b66ab363896aa",
     "LICENSE": "9db4334ab21bfaabb6089ae2849b5221fdecae147ea9e2ffa34c8ae2f2d009d2",
-    "README.md": "b4f9167ff8db6b42d55cc02c473eb5550a847a295188d6db1f5fde9ffb4b5497",
+    "README.md": "8e4c94bd1bcabe267e1a5550ad70d53825c1278cd3023f1e980bafa144565e59",
     "requirements.txt": "dc178e882ce8b54265ae1d9ce4646c43dfcc4eb7b1bf871f61045e806599f92f",
     "results/baselines/baseline_aggregate.json": "a0fb8bc69e1337fc2533773652628c2d5bccab41cdbc3c701c27b8b84ad5820e",
     "results/baselines/baseline_long.csv": "7e4bb3b0cd8b9b13a5f2fad8bd7d6ca6eb0166ed4044ec6d3e0ec1046824fb4b",
@@ -427,7 +427,8 @@
     "src/test_pids.py": "5296d93b9fbe4d002d080eab4a0991b7f0636b8a4a4604cedffab347cfa7e47f",
     "src/train.py": "462c666ada7d39f5c0c87517d330d06e3568c0b457b024eb36a461d4adb23f70",
     "THIRD_PARTY_NOTICES.md": "fbe66c9ce24f990ddfc23e2786a31adbb94f5713c952e5155670843851dc261e",
-    "verify_release.py": "6a23a55a0cf7d327f9c62919666fa5264a64caeb7b70b1030abe842facc35c99"
+    "verify_release.py": "6a23a55a0cf7d327f9c62919666fa5264a64caeb7b70b1030abe842facc35c99",
+    "REPRODUCTION.md": "b4f9167ff8db6b42d55cc02c473eb5550a847a295188d6db1f5fde9ffb4b5497"
   },
   "expected_outputs": {
     "table10_native_models.tex": "0534ecdadd352b3a1ca0727dba61e8650f3c50145b369a5c73dacaf1c1531d06",
